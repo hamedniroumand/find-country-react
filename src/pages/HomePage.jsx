@@ -134,9 +134,6 @@ export default function HomePage() {
       filterCountriesViaQueryParams();
     }
   }, [searchParam]);
-  React.useEffect(() => {
-    console.log('filteredCountries', filteredCountries);
-  }, [filteredCountries]);
   /** ***** END OF HOOKS ****** */
 
   return (
